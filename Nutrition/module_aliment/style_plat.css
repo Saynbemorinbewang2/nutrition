@@ -1,0 +1,155 @@
+body{
+    background: hsl(39, 100%, 79%);
+   }
+.entete{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    text-shadow: 3px 1px 2px;
+    text-transform: uppercase;
+    letter-spacing: 1;
+}
+
+.div-form{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+    margin-bottom: 30px;
+    left: 27%;
+}
+
+.right button{
+    margin-top: 10px;
+    left: 60%;
+}
+
+.div-form h3{
+    height: 50px;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    background-color: aqua;
+    border-radius: 1px 2px 0px;
+}
+
+.div-form form{
+    position: relative;
+    width: 100%;
+    min-width: 500px;
+    width: max-content;
+    height: max-content;
+    display: inline-block;
+    padding: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    box-shadow: 1px 2px 1px rgb(58, 57, 57);
+}
+
+.div-form form p input{
+    margin-top: 5px;
+    width: 99%;
+    height: 30px;
+    border : 1px solid rgb(127, 127, 245);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: small;
+}
+
+.div-form form p label{
+    font-size: 1.2em;
+}
+
+.submit-button button{
+    position: relative;
+    min-width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(73, 41, 252);
+    color: white;
+    font-size: 1em;
+}
+
+.plats-recommandes{
+    position: relative;
+
+}
+
+.plat-unique{
+    position: relative;
+    width: 600px;
+    height: 300px;
+    height: fit-content;
+    background-color: rgba(7, 12, 58, 0.541);
+    display: inline-block;
+    margin-top: 0px;
+    left: 27%;
+}
+
+.plat-unique .name{
+    font-size: 35px;
+}
+
+.plat-jour{
+    position: relative;
+    width: 420px;
+    min-height: 250px;
+    height: fit-content;
+    background-color: rgba(21, 28, 85, 0.541);
+    display: inline-block;
+    margin-top: 0px;
+    left: 5px;
+}
+
+.name{
+    position: relative;
+    top: 0px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+    text-transform: capitalize;
+}
+
+.nom-plat{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    margin-top: -5px;
+    font-weight: bold;
+    color: rgb(11, 1, 59);
+}
+
+.description{
+    position: absolute;
+    width: 50%;
+    right: 10px;
+    text-align: right;
+    font-family: monospace;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+    border-right: 1px solid black;
+    padding: 2px;
+    padding-right: 5px;
+}
+
+.apport-nut{
+    position: relative;
+    text-align: left;
+    margin-left: 10px;
+    top: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.info-user{
+    position: relative;
+    height: fit-content;
+    margin-top: 15px;
+    padding-left: 30px;
+    background-color: rgba(221, 235, 248, 0.692);
+    
+}
